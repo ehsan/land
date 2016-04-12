@@ -1,6 +1,6 @@
 #!/bin/bash
 
-while [ true ]; do
+while true; do
   git pull --rebase && git push && break;
   sleep 60;
 done
